@@ -1,0 +1,23 @@
+[package]
+name = "gbuild"
+version = "0.1.0"
+edition = "2018"
+authors = ["Gustavo Noronha Silva <gustavo@noronha.dev.br>"]
+license = "MIT"
+repository = "https://github.com/kov/gbuild"
+homepage = "https://github.com/kov/gbuild"
+documentation = "https://docs.rs/gbuild"
+description = """
+A build-time dependency for Cargo build scripts to enable easy integration with
+glib/gio/gtk non-compile build tasks. For now it only supports bundling data files
+using GResource.
+"""
+keywords = ["build-dependencies"]
+readme = "README.md"
+categories = ["development-tools::build-utils"]
+
+[dependencies]
+cc = "1.0"
+derive_builder = "0.10"
+gio = "0.9"
+quick-xml = "0.22"

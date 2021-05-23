@@ -1,0 +1,10 @@
+[package]
+name = "gbuild-test"
+version = "0.1.0"
+edition = "2018"
+
+[build-dependencies]
+gbuild = { path = "../gbuild" }
+
+[dependencies]
+gio = { git ="https://github.com/gtk-rs/gtk-rs-core.git", rev = "54c68cd585b0336b12224f2225630c6549adfaa5" }

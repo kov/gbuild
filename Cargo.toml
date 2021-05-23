@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "gbuild",
+    "gbuild-test",
+]
